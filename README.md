@@ -10,7 +10,7 @@ um conjunto de dados e minimizamos o erro usando a derivada da função.
 
 No segundo exemplo (pycaret_churn.ipynb) utilização do pycaret para previsão de Churn
 
-No terceiro exemplo sobre classes desbalanceadas vale dizer que 
+No terceiro exemplo (classes_desbalanceadas.ipynb) sobre classes desbalanceadas vale dizer que 
 é umerro muito comum ao trabalhar com problemas de classificação.
 A maioria dos conjuntos de dados em tarefas de classificação tem um problema de desequilíbrio de classe.
 Uma maneira de resolver o desequilíbrio de classe é fazer oversampling, ou seja, adicionando aleatoriamente
