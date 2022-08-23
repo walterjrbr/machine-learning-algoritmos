@@ -11,7 +11,7 @@ um conjunto de dados e minimizamos o erro usando a derivada da função.
 No segundo exemplo (pycaret_churn.ipynb) utilização do pycaret para previsão de Churn
 
 No terceiro exemplo (classes_desbalanceadas.ipynb) sobre classes desbalanceadas vale dizer que 
-é umerro muito comum ao trabalhar com problemas de classificação.
+é um erro muito comum ao trabalhar com problemas de classificação.
 A maioria dos conjuntos de dados em tarefas de classificação tem um problema de desequilíbrio de classe.
 Uma maneira de resolver o desequilíbrio de classe é fazer oversampling, ou seja, adicionando aleatoriamente
 amostras de classes minoritárias ao conjunto de dados para equilibrar o número de amostras para cada rótulo.
@@ -22,4 +22,6 @@ esse problema primeiro. Para resolver o problema, você decide fazer oversamplin
 você opta por fazer a validação cruzada. Agora, seus conjuntos de dados de treinamento e validação
 formados por validação cruzada k-fold terão várias amostras comuns que levarão à superestimação
 do desempenho do modelo. Portanto, evite fazer oversampling seguido de validação cruzada.
+
+No nosso exemplo primeiro fazemos o split e depois o balanceamento.
 
